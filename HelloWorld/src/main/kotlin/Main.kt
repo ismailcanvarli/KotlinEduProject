@@ -18,4 +18,8 @@ fun main() {
     val name: String = "Kotlin"
     val mesaj = String.format("Benim adım %s ve yaşım %d", name, yas)
     println(mesaj)
+
+    // Long sayılar için alt tire kullanımı yapılabilir
+    var longNumber = 1_000_000_000_000_000_000L
+    println(longNumber)
 }
