@@ -1,4 +1,4 @@
-package org.example
+package org.example.basics
 
 fun main() {
 
@@ -14,7 +14,6 @@ fun main() {
      * arrayOfNulls <Type>(size) şeklinde ise belirli bir boyutta null elemanlarla doldurulmuş bir array oluşturulur.
      * emptyArray <Type> () şeklinde ise belirli bir türde boş bir array oluşturulur.
      */
-
 
     val array = arrayOf(1, 2, 3, 4, 5)
     val array2 = arrayOf("Kotlin", "Java", "Python", "C++")
@@ -98,10 +97,23 @@ fun main() {
 
     printLetters(*lettersArray)
 
+    /**
+     * Array'leri karşılaştırma yaparken == operatörü kullanamayız.
+     * Array'ler referans tiptir ve == operatörü referansları karşılaştırır.
+     * Array'lerin elemanlarını karşılaştırmak için contentEquals() fonksiyonu kullanılır.
+     * Yada contentDeepEquals() fonksiyonu kullanılır.
+     */
+
+    val array7 = arrayOf(1, 2, 3, 4, 5)
+    val array8 = arrayOf(1, 2, 3, 4, 5)
+
+    println(array7 == array8) // false
+    println(array7.contentEquals(array8)) // true
+
 }
 
 fun printLetters(vararg letters: String) {
     for (letter in letters) {
-        print(letter)
+        println(letter)
     }
 }
