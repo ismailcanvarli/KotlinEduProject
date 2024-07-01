@@ -23,7 +23,9 @@ fun main() {
     // Interface de denebilir. Any ise tüm türleri kapsayan bir yapıdır.
     val array3 = arrayOf<Any>(13, "Kotlin", 3.14, 'A', true)
 
+    // Null elemanlarla doldurulmuş 5 elemanlı bir array oluşturuldu.
     val array4 = arrayOfNulls<Int>(5)
+    // String tipte boş bir array oluşturuldu. Size belirtilmediği için boyutu 0'dır.
     val array5 = emptyArray<String>()
 
     /**
@@ -47,6 +49,7 @@ fun main() {
     // ByteArray, ShortArray, IntArray, LongArray, FloatArray, DoubleArray, CharArray, BooleanArray
 
     val firstCharOfCountries = CharArray(6)
+    // Array'in elemanlarını değiştirme
     firstCharOfCountries[0] = 'T'
     firstCharOfCountries[1] = 'U'
     firstCharOfCountries[2] = 'R'
@@ -54,6 +57,8 @@ fun main() {
     firstCharOfCountries[4] = 'E'
     firstCharOfCountries[5] = 'Y'
 
+    // Array'in elemanlarına erişim
+    println(firstCharOfCountries[0])
     val stringSample = "TURKEY" // String bir array'dir.
 
     /**
@@ -82,4 +87,21 @@ fun main() {
 
     println(matrix[0][1])
 
+    /**
+     * Vararg (Variable number of arguments)
+     * Vararg, fonksiyonlara değişken sayıda argüman göndermek için kullanılır.
+     * Eğer varrag'a denk gelecek şekilde bir array kullanmak istioyrsak "spread operator" kullanılır.
+     * Spread operator "*" ile gösterilir, array'in elemanlarını ayırarak fonksiyona gönderir.
+     */
+
+    val lettersArray = arrayOf("A", "B", "C", "D", "E")
+
+    printLetters(*lettersArray)
+
+}
+
+fun printLetters(vararg letters: String) {
+    for (letter in letters) {
+        print(letter)
+    }
 }
