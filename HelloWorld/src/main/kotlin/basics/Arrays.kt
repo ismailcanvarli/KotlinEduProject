@@ -118,7 +118,7 @@ fun main() {
      * all(), count(), find()
      * first(), firstOrNull(), last()
      * max(), min(), sum(), average()
-     * toList(), toSet(), toMap() // Dizi elemanlarını list, set, map'e dönüştürür.
+     * toSet(), toList(), toMap() // Dizi elemanlarını set, list, map'e dönüştürür.
      * Map'e dönüştürürken key ve value değerlerini yazmak gerekir.
      * shuffle(), distinct(), intersect(), union(), subtract()
      */
@@ -126,6 +126,7 @@ fun main() {
     val array9 = arrayOf(1, 1, 2, 3, 4, 5)
     println(array9.size) // 5
     println(array9.copyOf()) // [1, 1, 2, 3, 4, 5]
+    println(message = array9.joinToString { it.toString() }) // 1, 1, 2, 3, 4, 5
     println(array9.sliceArray(1..3)) // [2, 3, 4]
     println(array9.forEach { println(it) }) // 1 1 2 3 4 5
     println(array9.count()) // 5
