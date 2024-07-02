@@ -110,6 +110,33 @@ fun main() {
     println(array7 == array8) // false
     println(array7.contentEquals(array8)) // true
 
+    /**
+     * Array'lerde kullanılan fonksiyonlar
+     * size, copyOf(), copyOfRange(), fill(value), sort(), reverse(), joinToString()
+     * sliceArray(), drop(), dropLast(), take(), takeLast()
+     * filter(), map(), forEach()
+     * all(), count(), find()
+     * first(), firstOrNull(), last()
+     * max(), min(), sum(), average()
+     * toList(), toSet(), toMap() // Dizi elemanlarını list, set, map'e dönüştürür.
+     * Map'e dönüştürürken key ve value değerlerini yazmak gerekir.
+     * shuffle(), distinct(), intersect(), union(), subtract()
+     */
+
+    val array9 = arrayOf(1, 1, 2, 3, 4, 5)
+    println(array9.size) // 5
+    println(array9.copyOf()) // [1, 1, 2, 3, 4, 5]
+    println(array9.sliceArray(1..3)) // [2, 3, 4]
+    println(array9.forEach { println(it) }) // 1 1 2 3 4 5
+    println(array9.count()) // 5
+    println(array9.find { it == 3 }) // 3
+    println(array9.first()) // 1
+    println(array9.max()) // 5
+    println(array9.sum()) // 15
+    println(array9.toSet()) // [1, 2, 3, 4, 5]
+    println(array9.toList()) // [1, 1, 2, 3, 4, 5]
+    println(array9.shuffle()) // [1, 3, 1, 5, 2, 4]
+
 }
 
 fun printLetters(vararg letters: String) {
