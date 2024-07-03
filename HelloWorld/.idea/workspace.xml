@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Code reformated">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/Range.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implemented examples of range usage in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/Operators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -22,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -40,6 +44,9 @@
     &quot;accountId&quot;: &quot;c2c1ccaf-f490-4bb7-87b7-4eea272ddfae&quot;
   }
 }</component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -54,12 +61,13 @@
     "Gradle.Build HelloWorld.executor": "Run",
     "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
-    "Kotlin.RangeKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Coverage",
+    "Kotlin.RangeKt.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "fileTemplates"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -72,7 +80,28 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.RangeKt">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.controlflow.OperatorsKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RangeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.RangeKt" />
       <module name="HelloWorld.main" />
@@ -83,6 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.RangeKt" />
+        <item itemvalue="Kotlin.OperatorsKt" />
+        <item itemvalue="Kotlin.ArraysKt" />
+        <item itemvalue="Kotlin.RangeKt" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719911900426</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented examples of range usage in Kotlin">
+      <option name="closed" value="true" />
+      <created>1719913674693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719913674693</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,7 +210,8 @@
     <MESSAGE value="Implemented examples of array comparison in Kotlin" />
     <MESSAGE value="Implemented examples of various functions used with arrays in Kotlin" />
     <MESSAGE value="Code reformated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code reformated" />
+    <MESSAGE value="Implemented examples of range usage in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented examples of range usage in Kotlin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,5 +234,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/HelloWorld$ArraysKt.ic" NAME="ArraysKt Coverage Results" MODIFIED="1720000475267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/HelloWorld$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1719999909753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/HelloWorld$RangeKt.ic" NAME="RangeKt Coverage Results" MODIFIED="1720000461803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
