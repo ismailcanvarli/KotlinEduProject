@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added examples of using the when control structure in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loop/Loops-For.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added exercises on Kotlin for loops">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loop/Loops-While.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,42 +56,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Loops_ForKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Coverage&quot;,
-    &quot;Kotlin.RangeKt.executor&quot;: &quot;Coverage&quot;,
-    &quot;Kotlin.WhenControlFlowKt.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build HelloWorld.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
+    "Kotlin.Loops_ForKt.executor": "Run",
+    "Kotlin.Loops_WhileKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Coverage",
+    "Kotlin.RangeKt.executor": "Coverage",
+    "Kotlin.WhenControlFlowKt.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "fileTemplates"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;C:\\Users\\canVarli\\.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\canVarli\\.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Loops_ForKt">
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
+  <component name="RunManager" selected="Kotlin.Loops_WhileKt">
+    <configuration name="Loops_ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_ForKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops_ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_ForKt" />
+    <configuration name="Loops_WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_WhileKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Loops_WhileKt" />
         <item itemvalue="Kotlin.Loops_ForKt" />
         <item itemvalue="Kotlin.WhenControlFlowKt" />
         <item itemvalue="Kotlin.RangeKt" />
         <item itemvalue="Kotlin.OperatorsKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720012264176</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added exercises on Kotlin for loops">
+      <option name="closed" value="true" />
+      <created>1720085165143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720085165143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,7 +269,8 @@
     <MESSAGE value="Added examples of operator usage in Kotlin" />
     <MESSAGE value="Added examples of using if-else control flow in Kotlin" />
     <MESSAGE value="Added examples of using the when control structure in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples of using the when control structure in Kotlin" />
+    <MESSAGE value="Added exercises on Kotlin for loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercises on Kotlin for loops" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
