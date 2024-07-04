@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added exercises on Kotlin for loops">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loop/Loops-While.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added exercises on Kotlin while loops">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/1-Basics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +66,12 @@
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.RangeKt.executor": "Coverage",
     "Kotlin.WhenControlFlowKt.executor": "Debug",
+    "Kotlin._1_BasicsKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "fileTemplates"
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -83,14 +84,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Loops_WhileKt">
-    <configuration name="Loops_ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_ForKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._1_BasicsKt">
     <configuration name="Loops_WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_WhileKt" />
       <module name="HelloWorld.main" />
@@ -119,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.function._1_BasicsKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HelloWorld" />
       <method v="2">
@@ -134,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin.Loops_WhileKt" />
-        <item itemvalue="Kotlin.Loops_ForKt" />
         <item itemvalue="Kotlin.WhenControlFlowKt" />
         <item itemvalue="Kotlin.RangeKt" />
         <item itemvalue="Kotlin.OperatorsKt" />
@@ -255,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720085165143</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added exercises on Kotlin while loops">
+      <option name="closed" value="true" />
+      <created>1720091957006</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720091957006</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,7 +279,8 @@
     <MESSAGE value="Added examples of using if-else control flow in Kotlin" />
     <MESSAGE value="Added examples of using the when control structure in Kotlin" />
     <MESSAGE value="Added exercises on Kotlin for loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercises on Kotlin for loops" />
+    <MESSAGE value="Added exercises on Kotlin while loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercises on Kotlin while loops" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
