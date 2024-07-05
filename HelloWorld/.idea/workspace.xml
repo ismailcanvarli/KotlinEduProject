@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added exercises on Kotlin while loops">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/1-Basics.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Explored basic properties of functions in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/DayCalculator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/GuessTheNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,8 @@
   "keyToString": {
     "Gradle.Build HelloWorld.executor": "Run",
     "Kotlin.ArraysKt.executor": "Run",
+    "Kotlin.FindTheNumberKt.executor": "Run",
+    "Kotlin.GuessTheNumberKt.executor": "Debug",
     "Kotlin.Loops_ForKt.executor": "Run",
     "Kotlin.Loops_WhileKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
@@ -84,16 +87,16 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._1_BasicsKt">
-    <configuration name="Loops_WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_WhileKt" />
+  <component name="RunManager" selected="Kotlin.GuessTheNumberKt">
+    <configuration name="GuessTheNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.GuessTheNumberKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.controlflow.OperatorsKt" />
+    <configuration name="Loops_WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_WhileKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="HelloWorld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="HelloWorld" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GuessTheNumberKt" />
         <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin.Loops_WhileKt" />
         <item itemvalue="Kotlin.WhenControlFlowKt" />
         <item itemvalue="Kotlin.RangeKt" />
-        <item itemvalue="Kotlin.OperatorsKt" />
       </list>
     </recent_temporary>
   </component>
