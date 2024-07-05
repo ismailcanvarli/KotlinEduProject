@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Explored basic properties of functions in Kotlin">
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Completed an exercise to calculate the day of the week based on user input">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/DayCalculator.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/GuessTheNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720091957006</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Completed an exercise to determine if a user-entered number is prime">
+      <option name="closed" value="true" />
+      <created>1720176039079</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720176039079</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed an exercise to calculate the day of the week based on user input">
+      <option name="closed" value="true" />
+      <created>1720176162483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720176162483</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,7 +285,9 @@
     <MESSAGE value="Added examples of using the when control structure in Kotlin" />
     <MESSAGE value="Added exercises on Kotlin for loops" />
     <MESSAGE value="Added exercises on Kotlin while loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercises on Kotlin while loops" />
+    <MESSAGE value="Completed an exercise to determine if a user-entered number is prime" />
+    <MESSAGE value="Completed an exercise to calculate the day of the week based on user input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed an exercise to calculate the day of the week based on user input" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
