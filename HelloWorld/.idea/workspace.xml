@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Completed an exercise to calculate letter grade based on midterm and final scores">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/BodyMassIndexCalculator.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Completed an exercise to body Mass Index (BMI) calculator with weight status output">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/AccountManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build HelloWorld.executor": "Run",
+    "Kotlin.AccountManagerKt.executor": "Run",
     "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
     "Kotlin.FindTheNumberKt.executor": "Run",
@@ -87,7 +88,14 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BodyMassIndexCalculatorKt">
+  <component name="RunManager" selected="Kotlin.AccountManagerKt">
+    <configuration name="AccountManagerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.AccountManagerKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BodyMassIndexCalculatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.BodyMassIndexCalculatorKt" />
       <module name="HelloWorld.main" />
@@ -109,13 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenControlFlowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.controlflow.WhenControlFlowKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.function._1_BasicsKt" />
       <module name="HelloWorld.main" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AccountManagerKt" />
         <item itemvalue="Kotlin.BodyMassIndexCalculatorKt" />
         <item itemvalue="Kotlin.GuessTheNumberKt" />
         <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin.Loops_WhileKt" />
-        <item itemvalue="Kotlin.WhenControlFlowKt" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720176315037</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Completed an exercise to body Mass Index (BMI) calculator with weight status output">
+      <option name="closed" value="true" />
+      <created>1720178711120</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720178711120</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +325,8 @@
     <MESSAGE value="Completed an exercise to determine if a user-entered number is prime" />
     <MESSAGE value="Completed an exercise to calculate the day of the week based on user input" />
     <MESSAGE value="Completed an exercise to calculate letter grade based on midterm and final scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed an exercise to calculate letter grade based on midterm and final scores" />
+    <MESSAGE value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
