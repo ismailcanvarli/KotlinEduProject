@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Completed an exercise to body Mass Index (BMI) calculator with weight status output">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/AccountManager.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/Calculator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,8 @@
     "Kotlin.AccountManagerKt.executor": "Run",
     "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
+    "Kotlin.CalculatorKt (1).executor": "Run",
+    "Kotlin.CalculatorKt.executor": "Run",
     "Kotlin.FindTheNumberKt.executor": "Run",
     "Kotlin.GuessTheNumberKt.executor": "Run",
     "Kotlin.Loops_ForKt.executor": "Run",
@@ -88,7 +90,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AccountManagerKt">
+  <component name="RunManager" selected="Kotlin.CalculatorKt (1)">
     <configuration name="AccountManagerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.AccountManagerKt" />
       <module name="HelloWorld.main" />
@@ -103,6 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessTheNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.GuessTheNumberKt" />
       <module name="HelloWorld.main" />
@@ -110,27 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops_WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.loop.Loops_WhileKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.function._1_BasicsKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CalculatorKt (1)" />
         <item itemvalue="Kotlin.AccountManagerKt" />
         <item itemvalue="Kotlin.BodyMassIndexCalculatorKt" />
         <item itemvalue="Kotlin.GuessTheNumberKt" />
-        <item itemvalue="Kotlin._1_BasicsKt" />
-        <item itemvalue="Kotlin.Loops_WhileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720178711120</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;">
+      <option name="closed" value="true" />
+      <created>1720185732929</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720185732929</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +328,8 @@
     <MESSAGE value="Completed an exercise to calculate the day of the week based on user input" />
     <MESSAGE value="Completed an exercise to calculate letter grade based on midterm and final scores" />
     <MESSAGE value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
+    <MESSAGE value="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
