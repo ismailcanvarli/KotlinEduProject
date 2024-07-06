@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add a basic calculator with input validation and looping functionality.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/2-InfixFunction.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add example of using infix functions for more readable code">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/3-FunctionScope.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -314,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720199388030</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add example of using infix functions for more readable code">
+      <option name="closed" value="true" />
+      <created>1720261939148</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720261939149</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +355,8 @@
     <MESSAGE value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
     <MESSAGE value="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;" />
     <MESSAGE value="Add a basic calculator with input validation and looping functionality." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a basic calculator with input validation and looping functionality." />
+    <MESSAGE value="Add example of using infix functions for more readable code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add example of using infix functions for more readable code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
