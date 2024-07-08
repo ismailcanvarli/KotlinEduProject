@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add exercises demonstrating the use of higher-order functions in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/HigherOrderFunctionExample.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Rename file containing extension function example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/higherorderfunction/FilterString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/higherorderfunction/HigherOrderFunctionExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -92,6 +93,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
@@ -111,7 +113,7 @@
       </method>
     </configuration>
     <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.HigherOrderFunctionExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.higherorderfunction.HigherOrderFunctionExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -350,7 +352,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720462321897</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Rename file containing extension function example">
+      <option name="closed" value="true" />
+      <created>1720466751486</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720466751486</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Rename file containing extension function example">
+      <option name="closed" value="true" />
+      <created>1720466765324</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720466765324</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +405,8 @@
     <MESSAGE value="Add examples demonstrating function scope and local function usage" />
     <MESSAGE value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
     <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
+    <MESSAGE value="Rename file containing extension function example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename file containing extension function example" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
