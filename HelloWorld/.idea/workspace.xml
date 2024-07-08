@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add exercises demonstrating the use of higher-order functions in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/HigherOrderFunctionExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Kotlin.ExtensionFunctionKt.executor": "Debug",
     "Kotlin.FindTheNumberKt.executor": "Run",
     "Kotlin.GuessTheNumberKt.executor": "Run",
+    "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
     "Kotlin.Loops_ForKt.executor": "Run",
     "Kotlin.Loops_WhileKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
@@ -94,14 +95,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._5_HigherOrderFunctionsKt">
-    <configuration name="AccountManagerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.AccountManagerKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.HigherOrderFunctionExampleKt">
     <configuration name="CalculatorKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorKt" />
       <module name="HelloWorld.main" />
@@ -111,6 +105,13 @@
     </configuration>
     <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.extension.ExtensionFunctionKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.HigherOrderFunctionExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
         <item itemvalue="Kotlin._5_HigherOrderFunctionsKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin._2_InfixFunctionKt" />
         <item itemvalue="Kotlin.CalculatorKt (1)" />
-        <item itemvalue="Kotlin.AccountManagerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720431639144</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add exercises demonstrating the use of higher-order functions in Kotlin">
+      <option name="closed" value="true" />
+      <created>1720462321897</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720462321897</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,45 +386,8 @@
     <MESSAGE value="Add example of using infix functions for more readable code" />
     <MESSAGE value="Add examples demonstrating function scope and local function usage" />
     <MESSAGE value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt</url>
-          <line>100</line>
-          <properties method="ikiyeKatla2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt</url>
-          <line>101</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt</url>
-          <line>44</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt</url>
-          <line>46</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/function/5-HigherOrderFunctions.kt</url>
-          <line>47</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
