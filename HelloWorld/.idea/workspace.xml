@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Rename file containing extension function example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/higherorderfunction/FilterString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/higherorderfunction/HigherOrderFunctionExample.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of higher-order functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/6-InlineNoInlineCrossInline.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -78,6 +77,7 @@
     "Kotlin._1_BasicsKt.executor": "Run",
     "Kotlin._2_InfixFunctionKt.executor": "Run",
     "Kotlin._5_HigherOrderFunctionsKt.executor": "Debug",
+    "Kotlin._6_InlineNoInlineCrossInlineKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowKotlin Bytecode.ShowToolbar": "false",
     "git-widget-placeholder": "master",
@@ -97,7 +97,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HigherOrderFunctionExampleKt">
+  <component name="RunManager" selected="Kotlin._6_InlineNoInlineCrossInlineKt">
     <configuration name="CalculatorKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorKt" />
       <module name="HelloWorld.main" />
@@ -119,13 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.function._2_InfixFunctionKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_5_HigherOrderFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.function._5_HigherOrderFunctionsKt" />
       <module name="HelloWorld.main" />
@@ -133,13 +126,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_6_InlineNoInlineCrossInlineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.function._6_InlineNoInlineCrossInlineKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._6_InlineNoInlineCrossInlineKt" />
         <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
-        <item itemvalue="Kotlin._5_HigherOrderFunctionsKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
-        <item itemvalue="Kotlin._2_InfixFunctionKt" />
         <item itemvalue="Kotlin.CalculatorKt (1)" />
+        <item itemvalue="Kotlin._5_HigherOrderFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720466765324</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add examples demonstrating the use of higher-order functions">
+      <option name="closed" value="true" />
+      <created>1720467806425</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720467806425</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +414,8 @@
     <MESSAGE value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
     <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
     <MESSAGE value="Rename file containing extension function example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename file containing extension function example" />
+    <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of higher-order functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
