@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of higher-order functions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function/6-InlineNoInlineCrossInline.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Turtle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.RangeKt.executor": "Coverage",
+    "Kotlin.TurtleKt.executor": "Run",
     "Kotlin.WhenControlFlowKt.executor": "Debug",
     "Kotlin._1_BasicsKt.executor": "Run",
     "Kotlin._2_InfixFunctionKt.executor": "Run",
@@ -97,7 +98,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._6_InlineNoInlineCrossInlineKt">
+  <component name="RunManager" selected="Kotlin.TurtleKt">
     <configuration name="CalculatorKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorKt" />
       <module name="HelloWorld.main" />
@@ -119,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_HigherOrderFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.function._5_HigherOrderFunctionsKt" />
+    <configuration name="TurtleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.TurtleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TurtleKt" />
         <item itemvalue="Kotlin._6_InlineNoInlineCrossInlineKt" />
         <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.CalculatorKt (1)" />
-        <item itemvalue="Kotlin._5_HigherOrderFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720467806425</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin">
+      <option name="closed" value="true" />
+      <created>1720526256850</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720526256850</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +424,8 @@
     <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
     <MESSAGE value="Rename file containing extension function example" />
     <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of higher-order functions" />
+    <MESSAGE value="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
