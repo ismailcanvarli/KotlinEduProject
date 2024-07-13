@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating inheritance in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/BankAccount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/Student.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/Vehicle.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add Vehicle base class and Car subclass with inheritance and method overriding">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Librarian.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Library.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Loan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/librarysystem/Member.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,64 +61,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build HelloWorld.executor": "Run",
-    "Kotlin.AccountManagerKt.executor": "Run",
-    "Kotlin.ArraysKt.executor": "Run",
-    "Kotlin.BankAccountKt.executor": "Run",
-    "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
-    "Kotlin.CalculatorKt (1).executor": "Run",
-    "Kotlin.CalculatorKt.executor": "Run",
-    "Kotlin.ExtensionFunctionKt.executor": "Debug",
-    "Kotlin.FindTheNumberKt.executor": "Run",
-    "Kotlin.GuessTheNumberKt.executor": "Run",
-    "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
-    "Kotlin.InheritanceKt.executor": "Run",
-    "Kotlin.Loops_ForKt.executor": "Run",
-    "Kotlin.Loops_WhileKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.OperatorsKt.executor": "Coverage",
-    "Kotlin.PersonKt.executor": "Run",
-    "Kotlin.RangeKt.executor": "Coverage",
-    "Kotlin.StudentKt.executor": "Run",
-    "Kotlin.TurtleKt.executor": "Run",
-    "Kotlin.VehicleKt.executor": "Run",
-    "Kotlin.WhenControlFlowKt.executor": "Debug",
-    "Kotlin._1_BasicsKt.executor": "Run",
-    "Kotlin._2_InfixFunctionKt.executor": "Run",
-    "Kotlin._5_HigherOrderFunctionsKt.executor": "Debug",
-    "Kotlin._6_InlineNoInlineCrossInlineKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "ToolWindowKotlin Bytecode.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AccountManagerKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BankAccountKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BodyMassIndexCalculatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CalculatorKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CalculatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExtensionFunctionKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.FindTheNumberKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GuessTheNumberKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HigherOrderFunctionExampleKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.InheritanceKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Loops_ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Loops_WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Coverage&quot;,
+    &quot;Kotlin.PersonKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.RangeKt.executor&quot;: &quot;Coverage&quot;,
+    &quot;Kotlin.StudentKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TurtleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VehicleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenControlFlowKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin._1_BasicsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._2_InfixFunctionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._5_HigherOrderFunctionsKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin._6_InlineNoInlineCrossInlineKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;ToolWindowKotlin Bytecode.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\canVarli\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\canVarli\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VehicleKt">
-    <configuration name="BankAccountKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.BankAccountKt" />
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.InheritanceKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classes.InheritanceKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.librarysystem.MainKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.VehicleKt" />
-        <item itemvalue="Kotlin.BankAccountKt" />
         <item itemvalue="Kotlin.StudentKt" />
         <item itemvalue="Kotlin.PersonKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
@@ -418,7 +420,39 @@
       <option name="project" value="LOCAL" />
       <updated>1720786166845</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add Person class with primary and secondary constructors">
+      <option name="closed" value="true" />
+      <created>1720809190165</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1720809190165</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implement Student class with init block for grade validation">
+      <option name="closed" value="true" />
+      <created>1720809200418</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1720809200418</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create BankAccount class with deposit and withdraw methods">
+      <option name="closed" value="true" />
+      <created>1720809217651</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1720809217651</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add Vehicle base class and Car subclass with inheritance and method overriding">
+      <option name="closed" value="true" />
+      <created>1720809223979</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1720809223979</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,10 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code reformated" />
-    <MESSAGE value="Implemented examples of range usage in Kotlin" />
-    <MESSAGE value="Added examples of operator usage in Kotlin" />
-    <MESSAGE value="Added examples of using if-else control flow in Kotlin" />
     <MESSAGE value="Added examples of using the when control structure in Kotlin" />
     <MESSAGE value="Added exercises on Kotlin for loops" />
     <MESSAGE value="Added exercises on Kotlin while loops" />
@@ -458,7 +488,11 @@
     <MESSAGE value="classes" />
     <MESSAGE value="Add example demonstrating encapsulation in Kotlin" />
     <MESSAGE value="Add examples demonstrating inheritance in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating inheritance in Kotlin" />
+    <MESSAGE value="Add Person class with primary and secondary constructors" />
+    <MESSAGE value="Implement Student class with init block for grade validation" />
+    <MESSAGE value="Create BankAccount class with deposit and withdraw methods" />
+    <MESSAGE value="Add Vehicle base class and Car subclass with inheritance and method overriding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vehicle base class and Car subclass with inheritance and method overriding" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
