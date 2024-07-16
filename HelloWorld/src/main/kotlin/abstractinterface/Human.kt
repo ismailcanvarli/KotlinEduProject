@@ -63,7 +63,9 @@ open class Italian(sex: Boolean) : Human(sex) {
 }
 
 // Bu sınıfın üstünde 2 adet abstract class var.
-// Hepsinin abstract property veya fonksiyonlarını almak zorunda
+// Hepsinin abstract property veya fonksiyonlarını almak zorunda değil.
+// Eğer zaten override edilmişse almak zorunda değil.
+// Eğer override edilmemişse almak zorunda.
 class Ordu : Turk(true) {
     override val name: String
         get() = super.name
