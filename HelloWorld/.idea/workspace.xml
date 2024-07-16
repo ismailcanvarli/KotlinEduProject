@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractinterface/Human.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of abstract classes and open properties/methods in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractinterface/Interfaces.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,7 @@
     "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
     "Kotlin.HumanKt.executor": "Run",
     "Kotlin.InheritanceKt.executor": "Run",
+    "Kotlin.InterfacesKt.executor": "Run",
     "Kotlin.Loops_ForKt.executor": "Run",
     "Kotlin.Loops_WhileKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
@@ -105,7 +106,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HumanKt">
+  <component name="RunManager" selected="Kotlin.InterfacesKt">
     <configuration name="HumanKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.abstractinterface.HumanKt" />
       <module name="HelloWorld.main" />
@@ -113,15 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.librarysystem.MainKt" />
+    <configuration name="InterfacesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.abstractinterface.InterfacesKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.PersonKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.librarysystem.MainKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InterfacesKt" />
         <item itemvalue="Kotlin.HumanKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.VehicleKt" />
         <item itemvalue="Kotlin.StudentKt" />
-        <item itemvalue="Kotlin.PersonKt" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720809223979</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add examples demonstrating the use of abstract classes and open properties/methods in Kotlin">
+      <option name="closed" value="true" />
+      <created>1721142389769</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1721142389769</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added examples of using the when control structure in Kotlin" />
     <MESSAGE value="Added exercises on Kotlin for loops" />
     <MESSAGE value="Added exercises on Kotlin while loops" />
     <MESSAGE value="Completed an exercise to determine if a user-entered number is prime" />
@@ -488,7 +496,8 @@
     <MESSAGE value="Implement Student class with init block for grade validation" />
     <MESSAGE value="Create BankAccount class with deposit and withdraw methods" />
     <MESSAGE value="Add Vehicle base class and Car subclass with inheritance and method overriding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Vehicle base class and Car subclass with inheritance and method overriding" />
+    <MESSAGE value="Add examples demonstrating the use of abstract classes and open properties/methods in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of abstract classes and open properties/methods in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
