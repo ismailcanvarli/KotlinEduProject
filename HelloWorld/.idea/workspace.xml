@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of data classes.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/vehicle/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/vehicle/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/vehicle/Motorcycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/vehicle/Vehicle.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implement abstract Vehicle class and its Car and Motorcycle subclasses">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/appliance/Appliance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/appliance/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/appliance/Refrigerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/appliance/WashingMachine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,6 +80,7 @@
     "Kotlin.Loops_ForKt.executor": "Run",
     "Kotlin.Loops_WhileKt.executor": "Run",
     "Kotlin.MainKt (1).executor": "Run",
+    "Kotlin.MainKt (2).executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.PersonKt.executor": "Run",
@@ -111,9 +113,16 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.vehicle.MainKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.appliance.MainKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.VehicleKt" />
@@ -494,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721210563771</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Implement abstract Vehicle class and its Car and Motorcycle subclasses">
+      <option name="closed" value="true" />
+      <created>1721220116343</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1721220116343</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed an exercise to calculate letter grade based on midterm and final scores" />
     <MESSAGE value="Completed an exercise to body Mass Index (BMI) calculator with weight status output" />
     <MESSAGE value="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;" />
     <MESSAGE value="Add a basic calculator with input validation and looping functionality." />
@@ -534,7 +551,8 @@
     <MESSAGE value="Update comment line." />
     <MESSAGE value="Move files to new locations" />
     <MESSAGE value="Add examples demonstrating the use of data classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of data classes." />
+    <MESSAGE value="Implement abstract Vehicle class and its Car and Motorcycle subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement abstract Vehicle class and its Car and Motorcycle subclasses" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
