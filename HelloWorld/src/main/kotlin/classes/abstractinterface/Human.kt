@@ -1,6 +1,6 @@
 //Created by canVarli on 7/16/2024.
 
-package org.example.abstractinterface
+package org.example.classes.abstractinterface
 
 /**
  * Abstract Class
