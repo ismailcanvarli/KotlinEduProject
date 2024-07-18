@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of enum classes in Kotlin">
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating the use of sealed classes in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/onlinemarket/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/onlinemarket/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/classes/onlinemarket/Product.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +26,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -78,10 +81,12 @@
     "Kotlin.Loops_WhileKt.executor": "Run",
     "Kotlin.MainKt (1).executor": "Run",
     "Kotlin.MainKt (2).executor": "Run",
+    "Kotlin.MainKt (3).executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.PersonKt.executor": "Run",
     "Kotlin.RangeKt.executor": "Coverage",
+    "Kotlin.SealedClassKt.executor": "Run",
     "Kotlin.StudentKt.executor": "Run",
     "Kotlin.TurtleKt.executor": "Run",
     "Kotlin.VehicleKt.executor": "Run",
@@ -110,7 +115,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SealedClassKt">
+  <component name="RunManager" selected="Kotlin.MainKt (3)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.vehicle.MainKt" />
       <module name="HelloWorld.main" />
@@ -120,6 +125,13 @@
     </configuration>
     <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.appliance.MainKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.onlinemarket.MainKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,20 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.VehicleKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.VehicleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721308687726</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add examples demonstrating the use of sealed classes in Kotlin">
+      <option name="closed" value="true" />
+      <created>1721311977615</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1721311977615</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a basic calculator with input validation and looping functionality." />
     <MESSAGE value="Add example of using infix functions for more readable code" />
     <MESSAGE value="Add examples demonstrating function scope and local function usage" />
     <MESSAGE value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
@@ -565,7 +577,8 @@
     <MESSAGE value="Implement abstract Vehicle class and its Car and Motorcycle subclasses" />
     <MESSAGE value="Implement Appliance interface and its Refrigerator and WashingMachine implementations" />
     <MESSAGE value="Add examples demonstrating the use of enum classes in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of enum classes in Kotlin" />
+    <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating the use of sealed classes in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
