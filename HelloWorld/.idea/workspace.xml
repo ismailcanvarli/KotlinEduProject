@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/nestedandınnerclass/Main.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Explore differences between nested and inner classes in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/generics/Generic.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -553,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721335334746</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Explore differences between nested and inner classes in Kotlin">
+      <option name="closed" value="true" />
+      <created>1721392190293</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1721392190293</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement and demonstrate the use of extension functions to add functionality to existing classes without modification" />
     <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
     <MESSAGE value="Rename file containing extension function example" />
     <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
@@ -593,7 +600,8 @@
     <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
     <MESSAGE value="Add Product class and Category enum with functions for product management" />
     <MESSAGE value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
+    <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explore differences between nested and inner classes in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
