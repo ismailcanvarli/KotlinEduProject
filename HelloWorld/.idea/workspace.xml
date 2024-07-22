@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Explore differences between nested and inner classes in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/generics/Generic.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Learn about generics, invariants, co-variants, and contra-variants in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/MainSingleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/Retrofit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/SingletonObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,7 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -59,65 +62,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.AccountManagerKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BankAccountKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BodyMassIndexCalculatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CalculatorKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CalculatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ExtensionFunctionKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.FindTheNumberKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.GuessTheNumberKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.HigherOrderFunctionExampleKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.HumanKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.InheritanceKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Loops_ForKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Loops_WhileKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt (2).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt (3).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Coverage&quot;,
-    &quot;Kotlin.PaymentSystemMainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PersonKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.RangeKt.executor&quot;: &quot;Coverage&quot;,
-    &quot;Kotlin.SealedClassKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.StudentKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.TurtleKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VehicleKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.WhenControlFlowKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin._1_BasicsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin._2_InfixFunctionKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin._5_HigherOrderFunctionsKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin._6_InlineNoInlineCrossInlineKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;ToolWindowKotlin Bytecode.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Gradle.Build HelloWorld.executor": "Run",
+    "Gradle.HelloWorld [:SingletonObject.main()].executor": "Debug",
+    "Gradle.HelloWorld [:SingletonObjects.main()].executor": "Run",
+    "Kotlin.AccountManagerKt.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
+    "Kotlin.BankAccountKt.executor": "Run",
+    "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
+    "Kotlin.CalculatorKt (1).executor": "Run",
+    "Kotlin.CalculatorKt.executor": "Run",
+    "Kotlin.ExtensionFunctionKt.executor": "Debug",
+    "Kotlin.FindTheNumberKt.executor": "Run",
+    "Kotlin.GuessTheNumberKt.executor": "Run",
+    "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
+    "Kotlin.HumanKt.executor": "Run",
+    "Kotlin.InheritanceKt.executor": "Run",
+    "Kotlin.InterfacesKt.executor": "Run",
+    "Kotlin.Loops_ForKt.executor": "Run",
+    "Kotlin.Loops_WhileKt.executor": "Run",
+    "Kotlin.MainKt (1).executor": "Run",
+    "Kotlin.MainKt (2).executor": "Run",
+    "Kotlin.MainKt (3).executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Coverage",
+    "Kotlin.PaymentSystemMainKt.executor": "Run",
+    "Kotlin.PersonKt.executor": "Run",
+    "Kotlin.RangeKt.executor": "Coverage",
+    "Kotlin.SealedClassKt.executor": "Run",
+    "Kotlin.StudentKt.executor": "Run",
+    "Kotlin.TurtleKt.executor": "Run",
+    "Kotlin.VehicleKt.executor": "Run",
+    "Kotlin.WhenControlFlowKt.executor": "Debug",
+    "Kotlin._1_BasicsKt.executor": "Run",
+    "Kotlin._2_InfixFunctionKt.executor": "Run",
+    "Kotlin._5_HigherOrderFunctionsKt.executor": "Debug",
+    "Kotlin._6_InlineNoInlineCrossInlineKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ToolWindowKotlin Bytecode.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;C:\\Users\\canVarli\\.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\canVarli\\.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PaymentSystemMainKt">
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.vehicle.MainKt" />
+  <component name="RunManager" selected="Application.SingletonObject">
+    <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objects.SingletonObject" />
       <module name="HelloWorld.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonObject" />
         <item itemvalue="Kotlin.PaymentSystemMainKt" />
         <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.SealedClassKt" />
         <item itemvalue="Kotlin.MainKt (2)" />
-        <item itemvalue="Kotlin.MainKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00001" summary="New project created">
-      <option name="closed" value="true" />
-      <created>1719594452485</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1719594452485</updated>
     </task>
     <task id="LOCAL-00002" summary="Implemented various examples of array usage in Kotlin">
       <option name="closed" value="true" />
@@ -561,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721392190293</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Learn about generics, invariants, co-variants, and contra-variants in Kotlin">
+      <option name="closed" value="true" />
+      <created>1721402554060</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1721402554076</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add exercises demonstrating the use of higher-order functions in Kotlin" />
     <MESSAGE value="Rename file containing extension function example" />
     <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
     <MESSAGE value="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin" />
@@ -601,7 +612,8 @@
     <MESSAGE value="Add Product class and Category enum with functions for product management" />
     <MESSAGE value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
     <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explore differences between nested and inner classes in Kotlin" />
+    <MESSAGE value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
