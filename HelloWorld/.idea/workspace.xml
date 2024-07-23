@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Move classes to a new directory structure">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/singleton/Configuration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +28,8 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -69,6 +72,7 @@
     "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
     "Kotlin.CalculatorKt (1).executor": "Run",
     "Kotlin.CalculatorKt.executor": "Run",
+    "Kotlin.ConfigurationKt.executor": "Run",
     "Kotlin.ExtensionFunctionKt.executor": "Debug",
     "Kotlin.FindTheNumberKt.executor": "Run",
     "Kotlin.GuessTheNumberKt.executor": "Run",
@@ -114,12 +118,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\function" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\generics\box" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StackGenericKt">
+  <component name="RunManager" selected="Kotlin.ConfigurationKt">
     <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.SingletonObject" />
       <module name="HelloWorld.main" />
@@ -129,6 +134,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.singleton.ConfigurationKt" />
+      <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentSystemMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.paymentsystem.PaymentSystemMainKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StackGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.stack.StackGenericKt" />
       <module name="HelloWorld.main" />
@@ -163,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ConfigurationKt" />
         <item itemvalue="Kotlin.StackGenericKt" />
         <item itemvalue="Kotlin.MainPairKt" />
         <item itemvalue="Kotlin.MainGenericKt" />
         <item itemvalue="Application.SingletonObject" />
-        <item itemvalue="Kotlin.PaymentSystemMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -179,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added examples of spread operator usage in Kotlin">
-      <option name="closed" value="true" />
-      <created>1719865534099</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1719865534099</updated>
     </task>
     <task id="LOCAL-00005" summary="Code reformated">
       <option name="closed" value="true" />
@@ -572,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721746336403</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Move classes to a new directory structure">
+      <option name="closed" value="true" />
+      <created>1721747297725</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747297725</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="asd" />
     <MESSAGE value="Add examples demonstrating classes and constructor structures in Kotlin" />
     <MESSAGE value="classes" />
     <MESSAGE value="Add example demonstrating encapsulation in Kotlin" />
@@ -612,7 +616,8 @@
     <MESSAGE value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
     <MESSAGE value="Implemented Box and Container classes to demonstrate generics" />
     <MESSAGE value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
+    <MESSAGE value="Move classes to a new directory structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move classes to a new directory structure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
