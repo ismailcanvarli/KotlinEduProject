@@ -15,7 +15,7 @@
  * Örnek çıktı: vücut kitle indeksiniz 24 Normal kilodasınız:
  */
 
-package org.example.testquestion
+package org.example.testquestion.function
 
 fun main() {
     println("Boyunuzu santimetre (cm) cinsinden giriniz: ")

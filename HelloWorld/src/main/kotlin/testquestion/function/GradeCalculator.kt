@@ -14,7 +14,7 @@
  *             70-79 BB
  *             80-100 AA
  */
-package org.example.testquestion
+package org.example.testquestion.function
 
 fun main() {
 

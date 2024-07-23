@@ -1,4 +1,4 @@
-//Created by canVarli on 7/5/2024.
+package org.example.testquestion.function//Created by canVarli on 7/5/2024.
 
 /**
  * Soru: Bir Hesap Makinesi Uygulaması

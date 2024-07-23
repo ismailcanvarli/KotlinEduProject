@@ -9,7 +9,7 @@
  *         örnek: girdi: 2 - çıktı: 2 gün sonra günlerden Cuma
  *         Şubat'ın 29 çektiği yıllar hesaba katılmayacak.
  */
-package org.example.testquestion
+package org.example.testquestion.function
 
 fun main() {
 

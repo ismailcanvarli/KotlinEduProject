@@ -18,7 +18,7 @@
  *         # Yapmak istediğiniz işlemi Seçiniz:
  */
 
-package org.example.testquestion
+package org.example.testquestion.function
 
 private var balance: Double = 500.00
 

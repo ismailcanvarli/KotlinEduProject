@@ -8,7 +8,7 @@
  *         -kodu kısa ve verimli tutmaya çalışınız
  */
 
-package org.example.testquestion
+package org.example.testquestion.function
 
 fun main() {
 

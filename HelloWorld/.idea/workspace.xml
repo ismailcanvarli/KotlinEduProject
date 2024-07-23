@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/box/Box.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/pair/PairClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/stack/StackGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Code reformated">
-      <option name="closed" value="true" />
-      <created>1719832452492</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1719832452492</updated>
     </task>
     <task id="LOCAL-00004" summary="Added examples of spread operator usage in Kotlin">
       <option name="closed" value="true" />
@@ -577,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721677279770</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function">
+      <option name="closed" value="true" />
+      <created>1721746336403</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1721746336403</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,8 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
-    <MESSAGE value="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin" />
     <MESSAGE value="asd" />
     <MESSAGE value="Add examples demonstrating classes and constructor structures in Kotlin" />
     <MESSAGE value="classes" />
@@ -617,7 +610,9 @@
     <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
     <MESSAGE value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
     <MESSAGE value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
+    <MESSAGE value="Implemented Box and Container classes to demonstrate generics" />
+    <MESSAGE value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

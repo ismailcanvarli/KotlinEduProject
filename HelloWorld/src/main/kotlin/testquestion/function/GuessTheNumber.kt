@@ -13,7 +13,7 @@
  *         -Doğru tahmin edildiğinde Program "tebrik edip" kapansın
  */
 
-package org.example.testquestion
+package org.example.testquestion.function
 
 import kotlin.random.Random
 
