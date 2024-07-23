@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Learn about generics, invariants, co-variants, and contra-variants in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/MainSingleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/Retrofit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/objects/SingletonObject.java" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/box/Box.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/pair/PairClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/generics/stack/StackGeneric.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +29,9 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -83,15 +83,18 @@
     "Kotlin.InterfacesKt.executor": "Run",
     "Kotlin.Loops_ForKt.executor": "Run",
     "Kotlin.Loops_WhileKt.executor": "Run",
+    "Kotlin.MainGenericKt.executor": "Run",
     "Kotlin.MainKt (1).executor": "Run",
     "Kotlin.MainKt (2).executor": "Run",
     "Kotlin.MainKt (3).executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MainPairKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.PaymentSystemMainKt.executor": "Run",
     "Kotlin.PersonKt.executor": "Run",
     "Kotlin.RangeKt.executor": "Coverage",
     "Kotlin.SealedClassKt.executor": "Run",
+    "Kotlin.StackGenericKt.executor": "Debug",
     "Kotlin.StudentKt.executor": "Run",
     "Kotlin.TurtleKt.executor": "Run",
     "Kotlin.VehicleKt.executor": "Run",
@@ -116,11 +119,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\generics\box" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonObject">
+  <component name="RunManager" selected="Kotlin.StackGenericKt">
     <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.SingletonObject" />
       <module name="HelloWorld.main" />
@@ -134,15 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.appliance.MainKt" />
+    <configuration name="MainGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.box.MainGenericKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.classes.onlinemarket.MainKt" />
+    <configuration name="MainPairKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.pair.MainPairKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classes.sealedclasses.SealedClassKt" />
+    <configuration name="StackGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.stack.StackGenericKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StackGenericKt" />
+        <item itemvalue="Kotlin.MainPairKt" />
+        <item itemvalue="Kotlin.MainGenericKt" />
         <item itemvalue="Application.SingletonObject" />
         <item itemvalue="Kotlin.PaymentSystemMainKt" />
-        <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.SealedClassKt" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implemented various examples of array usage in Kotlin">
-      <option name="closed" value="true" />
-      <created>1719601154191</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1719601154191</updated>
     </task>
     <task id="LOCAL-00003" summary="Code reformated">
       <option name="closed" value="true" />
@@ -573,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721402554076</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin">
+      <option name="closed" value="true" />
+      <created>1721677279770</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1721677279770</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rename file containing extension function example" />
     <MESSAGE value="Add examples demonstrating the use of higher-order functions" />
     <MESSAGE value="Add examples demonstrating Inline, noInline, crossInline, and non-local return in Kotlin" />
     <MESSAGE value="asd" />
@@ -613,7 +616,8 @@
     <MESSAGE value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
     <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
     <MESSAGE value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
+    <MESSAGE value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
