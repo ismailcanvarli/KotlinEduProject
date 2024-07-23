@@ -1,6 +1,6 @@
 //Created by canVarli on 7/22/2024.
 
-package objects;
+package objects.singleton;
 
 /**
  * Singleton Object
