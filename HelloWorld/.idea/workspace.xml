@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Move classes to a new directory structure">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/reflection/Main.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Explore Kotlin reflection to access private members and constructors">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scope/ScoopeMain.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +92,7 @@
     "Kotlin.PaymentSystemMainKt.executor": "Run",
     "Kotlin.PersonKt.executor": "Run",
     "Kotlin.RangeKt.executor": "Coverage",
+    "Kotlin.ScoopeMainKt.executor": "Run",
     "Kotlin.SealedClassKt.executor": "Run",
     "Kotlin.StackGenericKt.executor": "Debug",
     "Kotlin.StudentKt.executor": "Run",
@@ -109,7 +109,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Debugger"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -125,16 +125,9 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.ScoopeMainKt">
     <configuration name="ConfigurationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.singleton.ConfigurationKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.box.MainGenericKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,6 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScoopeMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.scope.ScoopeMainKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.stack.StackGenericKt" />
       <module name="HelloWorld.main" />
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ScoopeMainKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.ConfigurationKt" />
         <item itemvalue="Kotlin.StackGenericKt" />
         <item itemvalue="Kotlin.MainPairKt" />
-        <item itemvalue="Kotlin.MainGenericKt" />
       </list>
     </recent_temporary>
   </component>
@@ -179,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implemented examples of array comparison in Kotlin">
-      <option name="closed" value="true" />
-      <created>1719867050224</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1719867050224</updated>
     </task>
     <task id="LOCAL-00007" summary="Implemented examples of various functions used with arrays in Kotlin">
       <option name="closed" value="true" />
@@ -572,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721748275980</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Explore Kotlin reflection to access private members and constructors">
+      <option name="closed" value="true" />
+      <created>1721908973733</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1721908973733</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="classes" />
     <MESSAGE value="Add example demonstrating encapsulation in Kotlin" />
     <MESSAGE value="Add examples demonstrating inheritance in Kotlin" />
     <MESSAGE value="Add Person class with primary and secondary constructors" />
@@ -612,7 +611,8 @@
     <MESSAGE value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
     <MESSAGE value="Move classes to a new directory structure" />
     <MESSAGE value="Add singleton Configuration class for global settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add singleton Configuration class for global settings" />
+    <MESSAGE value="Explore Kotlin reflection to access private members and constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explore Kotlin reflection to access private members and constructors" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
