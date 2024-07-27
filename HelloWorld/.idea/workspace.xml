@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add additional examples demonstrating scope functions in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/MainDelegation.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Implement delegation pattern examples in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/scoopefunction/ScoopeTestMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testquestion/scoopefunction/ScoopeTestMain2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +113,8 @@
     "Kotlin.PersonKt.executor": "Run",
     "Kotlin.RangeKt.executor": "Coverage",
     "Kotlin.ScoopeMainKt.executor": "Run",
+    "Kotlin.ScoopeTestMain2Kt.executor": "Run",
+    "Kotlin.ScoopeTestMainKt.executor": "Run",
     "Kotlin.SealedClassKt.executor": "Run",
     "Kotlin.StackGenericKt.executor": "Debug",
     "Kotlin.StudentKt.executor": "Run",
@@ -144,14 +147,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainDelegationKt">
-    <configuration name="ConfigurationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.singleton.ConfigurationKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ScoopeTestMain2Kt">
     <configuration name="MainDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.MainDelegationKt" />
       <module name="HelloWorld.main" />
@@ -173,8 +169,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackGenericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.generics.stack.StackGenericKt" />
+    <configuration name="ScoopeTestMain2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.scoopefunction.ScoopeTestMain2Kt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoopeTestMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.scoopefunction.ScoopeTestMainKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ScoopeTestMain2Kt" />
+        <item itemvalue="Kotlin.ScoopeTestMainKt" />
         <item itemvalue="Kotlin.MainDelegationKt" />
         <item itemvalue="Kotlin.ScoopeMainKt" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.ConfigurationKt" />
-        <item itemvalue="Kotlin.StackGenericKt" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Implemented examples of range usage in Kotlin">
-      <option name="closed" value="true" />
-      <created>1719913674693</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1719913674693</updated>
     </task>
     <task id="LOCAL-00010" summary="Added examples of operator usage in Kotlin">
       <option name="closed" value="true" />
@@ -591,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721986765188</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Implement delegation pattern examples in Kotlin">
+      <option name="closed" value="true" />
+      <created>1722108630303</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1722108630303</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Person class with primary and secondary constructors" />
     <MESSAGE value="Implement Student class with init block for grade validation" />
     <MESSAGE value="Create BankAccount class with deposit and withdraw methods" />
     <MESSAGE value="Add Vehicle base class and Car subclass with inheritance and method overriding" />
@@ -631,7 +633,8 @@
     <MESSAGE value="Explore Kotlin reflection to access private members and constructors" />
     <MESSAGE value="Add examples demonstrating scope functions in Kotlin" />
     <MESSAGE value="Add additional examples demonstrating scope functions in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional examples demonstrating scope functions in Kotlin" />
+    <MESSAGE value="Implement delegation pattern examples in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement delegation pattern examples in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
