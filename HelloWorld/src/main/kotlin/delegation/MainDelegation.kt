@@ -32,13 +32,7 @@ class MixedPrinter : Printer {
 // Buradaki problem, yeni bir printer türü, yeni bir fonksiyon
 // eklediğimizde bu sınıfı güncellememiz gerekecektir.
 // Bu durumu önlemek için Delegation yapısını kullanabiliriz.
-class DocumentPrint(printerType: PrinterType) {
-    private val printer = when (printerType) {
-        PrinterType.INK -> InkPrinter()
-        PrinterType.LASER -> LaserPrinter()
-        PrinterType.MIXED -> MixedPrinter()
-    }
-
+class DocumentPrintManuel(private val printer: Printer) {
     fun printDocument() {
         printer.printDocument()
     }
@@ -52,14 +46,17 @@ class DocumentPrint(printerType: PrinterType) {
 class DocumentPrinterDelegate(printer: Printer) : Printer by printer
 
 fun main() {
-    val inkPrinter = DocumentPrint(PrinterType.INK)
-    inkPrinter.printDocument()
+    val inkPrinter = InkPrinter()
+    val documentPrintManuel = DocumentPrintManuel(inkPrinter)
+    documentPrintManuel.printDocument()
 
-    val inkPrinter1 = DocumentPrint(PrinterType.LASER)
-    inkPrinter1.printDocument()
+    val laserPrinter = LaserPrinter()
+    val documentPrintManuel1 = DocumentPrintManuel(laserPrinter)
+    documentPrintManuel1.printDocument()
 
-    val inkPrinter2 = DocumentPrint(PrinterType.MIXED)
-    inkPrinter2.printDocument()
+    val mixedPrinter = MixedPrinter()
+    val documentPrintManuel2 = DocumentPrintManuel(mixedPrinter)
+    documentPrintManuel2.printDocument()
 
     // Delegation ile yapılan işlem
     val documentPrinterDelegate = DocumentPrinterDelegate(InkPrinter())
