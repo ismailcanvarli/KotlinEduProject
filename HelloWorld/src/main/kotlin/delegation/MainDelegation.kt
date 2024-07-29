@@ -40,7 +40,7 @@ class DocumentPrintManuel(private val printer: Printer) {
 
 // Delegation ile yapılan işlem
 // Bu sınıf Printer interface'ini implemente eder.
-// printer nesnesine yetkiyi verir (delegation)
+// Burada interface delegaion var. Çünkü interface by ile yetki veriliyor.
 // Printer arayüzündeki tüm fonksiyonları printer nesnesine devreder.
 // Printer arayüzüne yeni bir fonksiyon eklendiğinde bu sınıfı güncellememize gerek kalmaz.
 class DocumentPrinterDelegate(printer: Printer) : Printer by printer
