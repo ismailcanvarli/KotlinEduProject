@@ -3,8 +3,8 @@
 package org.example.delegation
 
 /**
- * By kullanarak property delegation yapma
- * Seperate of concerns (Endişeleri ayırma)
+ * By kullanarak property delegation
+ * Separate of concerns (Endişeleri ayırma)
  * User sınıfı verileri yönetirken, Database sınıfı verileri saklar.
  * Delegate sınıfı veritabanı işlemlerini yapar.
  */
