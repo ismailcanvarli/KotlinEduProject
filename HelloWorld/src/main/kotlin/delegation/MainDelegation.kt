@@ -2,12 +2,7 @@
 
 package org.example.delegation
 
-// Printer tiplerini belirleyen enum class
-enum class PrinterType {
-    INK, LASER, MIXED
-}
-
-interface Printer {
+fun interface Printer {
     fun printDocument()
 }
 

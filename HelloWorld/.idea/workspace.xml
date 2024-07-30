@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples demonstrating manual and Kotlin-style usage of the Observer pattern" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Reorganize class locations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/delegation/MainDelegation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/MainDelegation.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +68,10 @@
 }</component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="groupByToolId" value="true" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -132,7 +139,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Errors"
   },
   "keyToStringList": {
     "kotlin-gradle-user-dirs": [
@@ -142,13 +150,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\objects" />
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\loop" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\function" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\generics\box" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
-      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ObservableKotlinKt">
+  <component name="RunManager" selected="Kotlin.MainDelegationKt">
     <configuration name="ByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.ByLazyKt" />
       <module name="HelloWorld.main" />
@@ -163,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPropertyManuelDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.MainPropertyManuelDelegationKt" />
+    <configuration name="MainDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.delegation.MainDelegationKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainDelegationKt" />
         <item itemvalue="Kotlin.ObservableKotlinKt" />
         <item itemvalue="Kotlin.ObserverPatternKt" />
         <item itemvalue="Kotlin.LateinitKt" />
         <item itemvalue="Kotlin.ByLazyKt" />
-        <item itemvalue="Kotlin.MainPropertyManuelDelegationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -202,14 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Completed an exercise to calculate letter grade based on midterm and final scores">
-      <option name="closed" value="true" />
-      <created>1720176315037</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1720176315037</updated>
     </task>
     <task id="LOCAL-00019" summary="Completed an exercise to body Mass Index (BMI) calculator with weight status output">
       <option name="closed" value="true" />
@@ -595,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722350131275</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Reorganize class locations">
+      <option name="closed" value="true" />
+      <created>1722368520044</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1722368520044</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement abstract Vehicle class and its Car and Motorcycle subclasses" />
     <MESSAGE value="Implement Appliance interface and its Refrigerator and WashingMachine implementations" />
     <MESSAGE value="Add examples demonstrating the use of enum classes in Kotlin" />
     <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
@@ -635,7 +643,8 @@
     <MESSAGE value="Add example demonstrating usage of 'by lazy' for lazy initialization in Kotlin" />
     <MESSAGE value="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin" />
     <MESSAGE value="Add examples demonstrating manual and Kotlin-style usage of the Observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add examples demonstrating manual and Kotlin-style usage of the Observer pattern" />
+    <MESSAGE value="Reorganize class locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganize class locations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

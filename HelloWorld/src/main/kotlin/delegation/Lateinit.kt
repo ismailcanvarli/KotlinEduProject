@@ -11,7 +11,7 @@ package org.example.delegation
  */
 
 class MyClass {
-    lateinit var lateInitProperty: String
+    private lateinit var lateInitProperty: String
 
     fun initailize() {
         lateInitProperty = "Initialized"

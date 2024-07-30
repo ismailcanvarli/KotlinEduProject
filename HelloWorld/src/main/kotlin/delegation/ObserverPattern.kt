@@ -9,14 +9,14 @@ package org.example.delegation
  * Burada biz manuel olarak bir observer pattern uygulaması yapacağız.
  */
 
-interface PropertyObserver {
+fun interface PropertyObserver {
     // eski değeri ve yeni değerinide parametre olarak alır.
     fun onPropertyChanged(oldValue: Int, newValue: Int)
 }
 
-class ObservableProperty(var balance: Int) {
+class ObservableProperty(private var balance: Int) {
     // Birden fazla observer olabileceği için bir liste oluşturuyoruz.
-    val observers = mutableListOf<PropertyObserver>()
+    private val observers = mutableListOf<PropertyObserver>()
 
     fun setValue(newValue: Int) {
         if (newValue != balance) {
