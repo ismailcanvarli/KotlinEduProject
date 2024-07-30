@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add example demonstrating usage of 'by lazy' for lazy initialization in Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/Lateinit.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ObservableKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/ObserverPattern.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +111,8 @@
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.MainPairKt.executor": "Run",
     "Kotlin.MainPropertyManuelDelegationKt.executor": "Run",
+    "Kotlin.ObservableKotlinKt.executor": "Run",
+    "Kotlin.ObserverPatternKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Coverage",
     "Kotlin.PaymentSystemMainKt.executor": "Run",
     "Kotlin.PersonKt.executor": "Run",
@@ -149,7 +152,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LateinitKt">
+  <component name="RunManager" selected="Kotlin.ObservableKotlinKt">
     <configuration name="ByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.ByLazyKt" />
       <module name="HelloWorld.main" />
@@ -171,15 +174,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoopeTestMain2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.scoopefunction.ScoopeTestMain2Kt" />
+    <configuration name="ObservableKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.delegation.ObservableKotlinKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoopeTestMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.scoopefunction.ScoopeTestMainKt" />
+    <configuration name="ObserverPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.delegation.ObserverPatternKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ObservableKotlinKt" />
+        <item itemvalue="Kotlin.ObserverPatternKt" />
         <item itemvalue="Kotlin.LateinitKt" />
         <item itemvalue="Kotlin.ByLazyKt" />
         <item itemvalue="Kotlin.MainPropertyManuelDelegationKt" />
-        <item itemvalue="Kotlin.ScoopeTestMain2Kt" />
-        <item itemvalue="Kotlin.ScoopeTestMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Completed an exercise to calculate the day of the week based on user input">
-      <option name="closed" value="true" />
-      <created>1720176162483</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1720176162483</updated>
     </task>
     <task id="LOCAL-00017" summary="Completed an exercise to calculate the day of the week based on user input">
       <option name="closed" value="true" />
@@ -596,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722342749266</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin">
+      <option name="closed" value="true" />
+      <created>1722347020011</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1722347020011</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Move files to new locations" />
     <MESSAGE value="Add examples demonstrating the use of data classes." />
     <MESSAGE value="Implement abstract Vehicle class and its Car and Motorcycle subclasses" />
     <MESSAGE value="Implement Appliance interface and its Refrigerator and WashingMachine implementations" />
@@ -636,7 +638,8 @@
     <MESSAGE value="Add example demonstrating property delegation using 'by' in Kotlin" />
     <MESSAGE value="Comment line modified" />
     <MESSAGE value="Add example demonstrating usage of 'by lazy' for lazy initialization in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add example demonstrating usage of 'by lazy' for lazy initialization in Kotlin" />
+    <MESSAGE value="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
