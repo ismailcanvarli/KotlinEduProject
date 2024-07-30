@@ -1,6 +1,6 @@
 //Created by canVarli on 7/22/2024.
 
-package objects.singleton;
+package objects;
 
 /**
  * Kullandığımız tüm constructor'ları private yaparak dışarıdan erişimi engelledik.

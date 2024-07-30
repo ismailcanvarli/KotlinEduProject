@@ -1,6 +1,6 @@
 //Created by canVarli on 7/22/2024.
 
-package org.example.objects.singleton
+package org.example.objects
 
 /**
  * Singleton object sadece bir tane instance'a sahip olabilir.
