@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Reorganize class locations">
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Fix: Correct functions for improved functionality and performance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/delegation/MainDelegation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/delegation/MainDelegation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,72 +81,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Gradle.Build HelloWorld.executor": "Run",
-    "Gradle.HelloWorld [:SingletonObject.main()].executor": "Debug",
-    "Gradle.HelloWorld [:SingletonObjects.main()].executor": "Run",
-    "Kotlin.AccountManagerKt.executor": "Run",
-    "Kotlin.ArraysKt.executor": "Run",
-    "Kotlin.BankAccountKt.executor": "Run",
-    "Kotlin.BodyMassIndexCalculatorKt.executor": "Run",
-    "Kotlin.ByLazyKt.executor": "Debug",
-    "Kotlin.CalculatorKt (1).executor": "Run",
-    "Kotlin.CalculatorKt.executor": "Run",
-    "Kotlin.ConfigurationKt.executor": "Run",
-    "Kotlin.ExtensionFunctionKt.executor": "Debug",
-    "Kotlin.FindTheNumberKt.executor": "Run",
-    "Kotlin.GuessTheNumberKt.executor": "Run",
-    "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
-    "Kotlin.HumanKt.executor": "Run",
-    "Kotlin.InheritanceKt.executor": "Run",
-    "Kotlin.InterfacesKt.executor": "Run",
-    "Kotlin.LateinitKt.executor": "Run",
-    "Kotlin.Loops_ForKt.executor": "Run",
-    "Kotlin.Loops_WhileKt.executor": "Run",
-    "Kotlin.MainDelegationKt.executor": "Run",
-    "Kotlin.MainGenericKt.executor": "Run",
-    "Kotlin.MainKt (1).executor": "Run",
-    "Kotlin.MainKt (2).executor": "Run",
-    "Kotlin.MainKt (3).executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.MainPairKt.executor": "Run",
-    "Kotlin.MainPropertyManuelDelegationKt.executor": "Run",
-    "Kotlin.ObservableKotlinKt.executor": "Run",
-    "Kotlin.ObserverPatternKt.executor": "Run",
-    "Kotlin.OperatorsKt.executor": "Coverage",
-    "Kotlin.PaymentSystemMainKt.executor": "Run",
-    "Kotlin.PersonKt.executor": "Run",
-    "Kotlin.RangeKt.executor": "Coverage",
-    "Kotlin.ScoopeMainKt.executor": "Run",
-    "Kotlin.ScoopeTestMain2Kt.executor": "Run",
-    "Kotlin.ScoopeTestMainKt.executor": "Run",
-    "Kotlin.SealedClassKt.executor": "Run",
-    "Kotlin.StackGenericKt.executor": "Debug",
-    "Kotlin.StudentKt.executor": "Run",
-    "Kotlin.TurtleKt.executor": "Run",
-    "Kotlin.VehicleKt.executor": "Run",
-    "Kotlin.WhenControlFlowKt.executor": "Debug",
-    "Kotlin._1_BasicsKt.executor": "Run",
-    "Kotlin._2_InfixFunctionKt.executor": "Run",
-    "Kotlin._5_HigherOrderFunctionsKt.executor": "Debug",
-    "Kotlin._6_InlineNoInlineCrossInlineKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "ToolWindowKotlin Bytecode.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HelloWorld [:SingletonObject.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.HelloWorld [:SingletonObjects.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AccountManagerKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BankAccountKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BodyMassIndexCalculatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ByLazyKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CalculatorKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CalculatorKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ConfigurationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExtensionFunctionKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.FindTheNumberKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GuessTheNumberKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HigherOrderFunctionExampleKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.HumanKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InheritanceKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LateinitKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Loops_ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Loops_WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainDelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainGenericKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainPairKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainPropertyManuelDelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ObservableKotlinKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ObserverPatternKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Coverage&quot;,
+    &quot;Kotlin.PaymentSystemMainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.PersonKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.RangeKt.executor&quot;: &quot;Coverage&quot;,
+    &quot;Kotlin.ScoopeMainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ScoopeTestMain2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ScoopeTestMainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SealedClassKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StackGenericKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.StudentKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TurtleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VehicleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenControlFlowKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin._1_BasicsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._2_InfixFunctionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._5_HigherOrderFunctionsKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin._6_InlineNoInlineCrossInlineKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;ToolWindowKotlin Bytecode.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5229885&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\canVarli\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\canVarli\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\objects" />
@@ -157,7 +160,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainDelegationKt">
+  <component name="RunManager" selected="Kotlin.LogDelegationKt">
     <configuration name="ByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.ByLazyKt" />
       <module name="HelloWorld.main" />
@@ -167,6 +170,13 @@
     </configuration>
     <configuration name="LateinitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.LateinitKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.delegation.LogDelegationKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,20 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.ObserverPatternKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainDelegationKt" />
+        <item itemvalue="Kotlin.LogDelegationKt" />
         <item itemvalue="Kotlin.ObservableKotlinKt" />
-        <item itemvalue="Kotlin.ObserverPatternKt" />
         <item itemvalue="Kotlin.LateinitKt" />
         <item itemvalue="Kotlin.ByLazyKt" />
+        <item itemvalue="Kotlin.MainDelegationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -211,14 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Completed an exercise to body Mass Index (BMI) calculator with weight status output">
-      <option name="closed" value="true" />
-      <created>1720178711120</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1720178711120</updated>
     </task>
     <task id="LOCAL-00020" summary="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;">
       <option name="closed" value="true" />
@@ -604,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722368520044</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Fix: Correct functions for improved functionality and performance">
+      <option name="closed" value="true" />
+      <created>1722369084157</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1722369084158</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -619,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement Appliance interface and its Refrigerator and WashingMachine implementations" />
     <MESSAGE value="Add examples demonstrating the use of enum classes in Kotlin" />
     <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
     <MESSAGE value="Add Product class and Category enum with functions for product management" />
@@ -644,7 +646,8 @@
     <MESSAGE value="Add example demonstrating usage of 'lateinit' for late initialization in Kotlin" />
     <MESSAGE value="Add examples demonstrating manual and Kotlin-style usage of the Observer pattern" />
     <MESSAGE value="Reorganize class locations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganize class locations" />
+    <MESSAGE value="Fix: Correct functions for improved functionality and performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Correct functions for improved functionality and performance" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
