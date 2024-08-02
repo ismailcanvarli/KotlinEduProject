@@ -35,5 +35,4 @@ fun main() {
 
     // İç içe else if kullanırken birbiriyle alakasız olan şeyleri kontrol etmemek gerekiyor.
     // Örneğin, bir sayının pozitif olup olmadığını kontrol ederken, sayının 0 olup olmadığını kontrol etmeye gerek yok.
-
 }

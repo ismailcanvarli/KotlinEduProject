@@ -1,20 +1,19 @@
 package org.example.basics
 
+// Array (diziler)
+/**
+ * Aynı türden ya da belirli bir tür grubundan elemanları içinde barındıran veri yapılardır.
+ * En sık kllanılan versiyonu Object-type array tipinde olanıdır.
+ * Primite tiplerin array'leri de vardır.
+ * ByteArray, ShortArray, IntArray, LongArray, FloatArray, DoubleArray, CharArray, BooleanArray
+ *
+ * arrayOf (ayni tipden elemanlar) şeklinde tanımlanır.
+ * arrayOf <Any> (farklı tiplerden elemanlar) şeklinde tanımlanır.
+ * arrayOfNulls <Type>(size) şeklinde ise belirli bir boyutta null elemanlarla doldurulmuş bir array oluşturulur.
+ * emptyArray <Type> () şeklinde ise belirli bir türde boş bir array oluşturulur.
+ */
+
 fun main() {
-
-    // Array (diziler)
-    /**
-     * Aynı türden ya da belirli bir tür grubundan elemanları içinde barındıran veri yapılardır.
-     * En sık kllanılan versiyonu Object-type array tipinde olanıdır.
-     * Primite tiplerin array'leri de vardır.
-     * ByteArray, ShortArray, IntArray, LongArray, FloatArray, DoubleArray, CharArray, BooleanArray
-     *
-     * arrayOf (ayni tipden elemanlar) şeklinde tanımlanır.
-     * arrayOf <Any> (farklı tiplerden elemanlar) şeklinde tanımlanır.
-     * arrayOfNulls <Type>(size) şeklinde ise belirli bir boyutta null elemanlarla doldurulmuş bir array oluşturulur.
-     * emptyArray <Type> () şeklinde ise belirli bir türde boş bir array oluşturulur.
-     */
-
     val array = arrayOf(1, 2, 3, 4, 5)
     val array2 = arrayOf("Kotlin", "Java", "Python", "C++")
 
@@ -137,7 +136,6 @@ fun main() {
     println(array9.toSet()) // [1, 2, 3, 4, 5]
     println(array9.toList()) // [1, 1, 2, 3, 4, 5]
     println(array9.shuffle()) // [1, 3, 1, 5, 2, 4]
-
 }
 
 fun printLetters(vararg letters: String) {

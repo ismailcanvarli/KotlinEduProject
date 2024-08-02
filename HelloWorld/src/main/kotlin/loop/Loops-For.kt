@@ -2,16 +2,15 @@
 
 package org.example.loop
 
+/**
+ * For döngüsü, belirli bir aralıktaki değerler üzerinde döngü yapmak için kullanılır.
+ * 3 Farklı şekilde kullanılabilir.
+ * value in list                    şeklinde value değerlerini döndürür.
+ * index in list.indices            şeklinde index değerlerini döndürür.
+ * (index, value) in list.withIndex() şeklinde index ve value değerlerini döndürür.
+ */
+
 fun main() {
-
-    /**
-     * For döngüsü, belirli bir aralıktaki değerler üzerinde döngü yapmak için kullanılır.
-     * 3 Farklı şekilde kullanılabilir.
-     * value in list                    şeklinde value değerlerini döndürür.
-     * index in list.indices            şeklinde index değerlerini döndürür.
-     * (index, value) in list.withIndex() şeklinde index ve value değerlerini döndürür.
-     */
-
     // 1. value in list şeklinde kullanım
     for (value: Int in 1..5) { // 1,2,3,4,5
         println(value)
@@ -90,6 +89,4 @@ fun main() {
             println("$i * $j = ${i * j}")
         }
     }
-
-
 }

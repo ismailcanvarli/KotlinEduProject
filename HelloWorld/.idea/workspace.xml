@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Fix: Correct functions for improved functionality and performance">
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add delegation example using Logger interface for Android logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +104,7 @@
     &quot;Kotlin.InheritanceKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.LateinitKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LogDelegationKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Loops_ForKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Loops_WhileKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainDelegationKt.executor&quot;: &quot;Run&quot;,
@@ -139,8 +140,8 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5229885&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
@@ -160,7 +161,14 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LogDelegationKt">
+  <component name="RunManager" selected="Kotlin.ArraysKt">
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.ByLazyKt" />
       <module name="HelloWorld.main" />
@@ -182,13 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.MainDelegationKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ObservableKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.delegation.ObservableKotlinKt" />
       <module name="HelloWorld.main" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.LogDelegationKt" />
         <item itemvalue="Kotlin.ObservableKotlinKt" />
         <item itemvalue="Kotlin.LateinitKt" />
         <item itemvalue="Kotlin.ByLazyKt" />
-        <item itemvalue="Kotlin.MainDelegationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00020" summary="&quot;Implement basic account management operations including deposit, withdraw, and balance display&quot;">
-      <option name="closed" value="true" />
-      <created>1720185732929</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1720185732929</updated>
     </task>
     <task id="LOCAL-00021" summary="Add a basic calculator with input validation and looping functionality.">
       <option name="closed" value="true" />
@@ -607,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722369084158</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Add delegation example using Logger interface for Android logging">
+      <option name="closed" value="true" />
+      <created>1722413870948</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1722413870949</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -622,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add examples demonstrating the use of enum classes in Kotlin" />
     <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
     <MESSAGE value="Add Product class and Category enum with functions for product management" />
     <MESSAGE value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
@@ -647,7 +647,8 @@
     <MESSAGE value="Add examples demonstrating manual and Kotlin-style usage of the Observer pattern" />
     <MESSAGE value="Reorganize class locations" />
     <MESSAGE value="Fix: Correct functions for improved functionality and performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Correct functions for improved functionality and performance" />
+    <MESSAGE value="Add delegation example using Logger interface for Android logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delegation example using Logger interface for Android logging" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

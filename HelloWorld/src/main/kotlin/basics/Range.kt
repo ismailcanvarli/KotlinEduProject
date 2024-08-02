@@ -1,16 +1,16 @@
 package org.example.basics
 
-fun main() {
-    /**
-     * Range sonlu sayılı bir aralığı (bir listeyi) temsil eder.
-     * ".." operatörü yada rangeTo fonksiyonu ile range oluşturulabilir.
-     * "..<" operatörü yada until fonksiyonu ile range oluşturulabilir.
-     * Küçükten büyüğe doğru bir aralık oluşturmak için 1..5 şeklinde kullanılır.
-     * Büyükten küçüğe doğru bir aralık oluşturmak için 5 downTo 1 şeklinde kullanılır.
-     * Belirli bir aralıkta belirli bir sayıda artış yapmak için 1..10 step 2 şeklinde kullanılır.
-     * Range içindeki değerleri kontrol etmek için in operatörü kullanılır.
-     */
+/**
+ * Range sonlu sayılı bir aralığı (bir listeyi) temsil eder.
+ * ".." operatörü yada rangeTo fonksiyonu ile range oluşturulabilir.
+ * "..<" operatörü yada until fonksiyonu ile range oluşturulabilir.
+ * Küçükten büyüğe doğru bir aralık oluşturmak için 1..5 şeklinde kullanılır.
+ * Büyükten küçüğe doğru bir aralık oluşturmak için 5 downTo 1 şeklinde kullanılır.
+ * Belirli bir aralıkta belirli bir sayıda artış yapmak için 1..10 step 2 şeklinde kullanılır.
+ * Range içindeki değerleri kontrol etmek için in operatörü kullanılır.
+ */
 
+fun main() {
     val numbers1 = 1..5 // 1, 2, 3, 4, 5
     val numbers2 = 1.rangeTo(5) // 1..5
     val numbers3 = 1 until 5 // 1, 2, 3, 4 (5 hariç)

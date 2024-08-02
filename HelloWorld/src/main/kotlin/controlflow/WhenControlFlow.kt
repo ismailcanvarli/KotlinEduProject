@@ -3,7 +3,6 @@
 package org.example.controlflow
 
 fun main() {
-
     // When kontrol yapısı
     val countryCode = readln()
     when (countryCode.lowercase()) {
@@ -32,5 +31,4 @@ fun main() {
         in 86..100 -> println("A")
         else -> println("Invalid score")
     }
-
 }

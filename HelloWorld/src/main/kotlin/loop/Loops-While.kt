@@ -2,14 +2,14 @@
 
 package org.example.loop
 
-fun main() {
-    /**
-     * While döngüsü belirli bir koşul sağlandığı sürece çalışır.
-     * While döngüsü, döngü başlamadan önce koşul kontrol edilir.
-     * For ve if birleştirilmiş hali gibi.
-     * İş hayatında çok kullanılmaz. Genelde for ve for if
-     */
+/**
+ * While döngüsü belirli bir koşul sağlandığı sürece çalışır.
+ * While döngüsü, döngü başlamadan önce koşul kontrol edilir.
+ * For ve if birleştirilmiş hali gibi.
+ * İş hayatında çok kullanılmaz. Genelde for ve for if
+ */
 
+fun main() {
     var number = 0
 
     while (number < 5) {
