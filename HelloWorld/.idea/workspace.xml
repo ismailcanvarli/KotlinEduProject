@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Refactor comments for clarity and consistency">
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Refactor: Update comments and clean up code in test functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysKt">
+  <component name="RunManager" selected="Kotlin.HigherOrderFunctionExampleKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
       <module name="HelloWorld.main" />
@@ -169,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByLazyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.ByLazyKt" />
+    <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.function.HigherOrderFunctionExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.LogDelegationKt" />
         <item itemvalue="Kotlin.ObservableKotlinKt" />
         <item itemvalue="Kotlin.LateinitKt" />
-        <item itemvalue="Kotlin.ByLazyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Add example of using infix functions for more readable code">
-      <option name="closed" value="true" />
-      <created>1720261939148</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1720261939149</updated>
     </task>
     <task id="LOCAL-00023" summary="Add examples demonstrating function scope and local function usage">
       <option name="closed" value="true" />
@@ -608,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722625470068</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Refactor: Update comments and clean up code in test functions">
+      <option name="closed" value="true" />
+      <created>1722690541535</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1722690541535</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -623,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add examples demonstrating the use of sealed classes in Kotlin" />
     <MESSAGE value="Add Product class and Category enum with functions for product management" />
     <MESSAGE value="Implement sealed class for PaymentMethod with specific handling in processPayment function" />
     <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
@@ -648,7 +647,8 @@
     <MESSAGE value="Fix: Correct functions for improved functionality and performance" />
     <MESSAGE value="Add delegation example using Logger interface for Android logging" />
     <MESSAGE value="Refactor comments for clarity and consistency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor comments for clarity and consistency" />
+    <MESSAGE value="Refactor: Update comments and clean up code in test functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Update comments and clean up code in test functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
