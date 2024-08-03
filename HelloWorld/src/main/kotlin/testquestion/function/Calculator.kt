@@ -1,5 +1,6 @@
 package org.example.testquestion.function//Created by canVarli on 7/5/2024.
 
+// Fonksiyonlar ve when kullanımıyla ilgili örnek
 /**
  * Soru: Bir Hesap Makinesi Uygulaması
  *

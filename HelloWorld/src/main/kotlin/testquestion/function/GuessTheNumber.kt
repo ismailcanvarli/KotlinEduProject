@@ -1,5 +1,6 @@
 //Created by canVarli on 7/5/2024.
 
+// Basit fonksiyonlarla ilgili örnek
 /**
  * 1 ile 25 arasında rastgele bir sayı seçilsin kullanıcıdan bu sayının bulunması istenilsin.
  *         -Kullanıcının bilmek için 3 hakkı olsun

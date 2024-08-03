@@ -1,5 +1,6 @@
 //Created by canVarli on 7/4/2024.
 
+// Fonksiyonlar ve when kullanımıyla ilgili örnek
 /**
  * When kullanarak harf notu hesaplayan bir algoritma yazınız
  *
@@ -17,7 +18,6 @@
 package org.example.testquestion.function
 
 fun main() {
-
     println("0-100 arasında sırasıyla vize ve final notlarınızı giriniz: ")
     val midTerm: Int = readln().toInt()
     val final: Int = readln().toInt()
@@ -39,7 +39,6 @@ fun main() {
     }
 
     println("Harf notunuz: " + calculateGrade((midTerm + final) / 2))
-
 }
 
 fun calculateGrade(average: Int): String {

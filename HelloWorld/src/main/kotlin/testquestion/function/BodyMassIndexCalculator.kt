@@ -43,4 +43,3 @@ fun printWeightStatus(bmi: Double) {
         else -> println("Obez")
     }
 }
-

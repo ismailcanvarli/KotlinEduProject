@@ -1,4 +1,6 @@
 //Created by canVarli on 7/5/2024.
+
+// Fonksiyon - döngü - kontrol yapıları
 /**
  * Başlangıçta 500 birimlik bakiyesi bulunan ve bu bakiyeyle istenilen işlemleri yapan algoritma yazınız:
  *

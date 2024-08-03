@@ -1,5 +1,6 @@
 //Created by canVarli on 7/4/2024.
 
+// Basit fonksiyonlar ve döngüler
 /**
  * Döngüler kullanarak asal sayı kontrol eden bir algoritma yazınız.
  *
@@ -23,7 +24,6 @@ fun main() {
             println("Your number isn't a prime number: $number")
         }
     }
-
 }
 
 fun isPrime(number: Int): Boolean {
@@ -35,4 +35,3 @@ fun isPrime(number: Int): Boolean {
     }
     return true
 }
-
