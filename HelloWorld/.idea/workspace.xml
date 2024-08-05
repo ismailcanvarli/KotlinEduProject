@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add example of polymorphism in OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/dataclass/DataClassExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Inheritance.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,7 @@
     "Kotlin.CalculatorKt (1).executor": "Run",
     "Kotlin.CalculatorKt.executor": "Run",
     "Kotlin.ConfigurationKt.executor": "Run",
+    "Kotlin.DataClassExampleKt.executor": "Run",
     "Kotlin.ExtensionFunctionKt.executor": "Debug",
     "Kotlin.FindTheNumberKt.executor": "Run",
     "Kotlin.GuessTheNumberKt.executor": "Run",
@@ -166,7 +167,7 @@
       <recent name="classes.oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PolymorphismKt">
+  <component name="RunManager" selected="Kotlin.DataClassExampleKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
       <module name="HelloWorld.main" />
@@ -174,15 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.function.HigherOrderFunctionExampleKt" />
+    <configuration name="DataClassExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.dataclass.DataClassExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.delegation.LogDelegationKt" />
+    <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.function.HigherOrderFunctionExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PolymorphismKt" />
+        <item itemvalue="Kotlin.DataClassExampleKt" />
         <item itemvalue="Kotlin.TurtleKt" />
+        <item itemvalue="Kotlin.PolymorphismKt" />
         <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
         <item itemvalue="Kotlin.ArraysKt" />
-        <item itemvalue="Kotlin.LogDelegationKt" />
       </list>
     </recent_temporary>
   </component>
