@@ -16,6 +16,8 @@ open class Animal(name: String) {
         return "Hayvan sesi"
     }
 
+    // Open olmayan fonksiyonlar override edilemez
+    // Ancak kalıtım alan sınıf bu fonksiyonu kullanabilir.
     fun eat(): String {
         return ""
     }
@@ -45,4 +47,5 @@ fun main() {
     println(animal.makeSound()) // Hayvan sesi
     println(dog.makeSound()) // HAV HAV
     println(cat.makeSound()) // Miyav
+    cat.eat()
 }
