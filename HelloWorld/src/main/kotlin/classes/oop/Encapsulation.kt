@@ -1,6 +1,6 @@
 //Created by canVarli on 7/12/2024.
 
-package org.example.classes
+package org.example.classes.oop
 
 class Encapsulation {
     val name: String = "Ismail Can"

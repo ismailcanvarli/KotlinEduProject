@@ -1,6 +1,6 @@
 //Created by canVarli on 7/12/2024.
 
-package org.example.classes
+package org.example.classes.oop
 
 // Kalıtım'a açık olduğunu söylemek için open yazmamız gerekiyor.
 // Buradan da bu sınıfın miras alınabilir olduğunu anlayabiliyoruz.

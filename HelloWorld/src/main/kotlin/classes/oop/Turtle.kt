@@ -1,6 +1,6 @@
 //Created by canVarli on 7/10/2024.
 
-package org.example.classes
+package org.example.classes.oop
 
 // Kaplumbağa sınıfı
 // 7 property (özellik) ve 3 function (fonksiyon) içerir

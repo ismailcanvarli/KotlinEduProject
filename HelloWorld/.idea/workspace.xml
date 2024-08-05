@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Refactor: Update comments and clean up code in test functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Polymorphism.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Encapsulation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Encapsulation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Inheritance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Turtle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/oop/Turtle.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +158,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\objects" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\loop" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\function" />
       <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\generics\box" />
-      <recent name="C:\Users\canVarli\KotlinEduProject\HelloWorld\src\main\kotlin\testquestion\higherorderfunction" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HigherOrderFunctionExampleKt">
+  <component name="RunManager" selected="Kotlin.PolymorphismKt">
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
       <module name="HelloWorld.main" />
@@ -176,13 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LateinitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.LateinitKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LogDelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.testquestion.delegation.LogDelegationKt" />
       <module name="HelloWorld.main" />
@@ -190,8 +187,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.delegation.ObservableKotlinKt" />
+    <configuration name="PolymorphismKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.oop.PolymorphismKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.oop.TurtleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PolymorphismKt" />
+        <item itemvalue="Kotlin.TurtleKt" />
         <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.LogDelegationKt" />
-        <item itemvalue="Kotlin.ObservableKotlinKt" />
-        <item itemvalue="Kotlin.LateinitKt" />
       </list>
     </recent_temporary>
   </component>
