@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add Customer data class with basic properties and functions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/nestedandınnerclass/InnerClassExample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/sealedclasses/SealedClassExample.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add examples for sealed, nested, and inner class usage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Rename file containing extension function example">
-      <option name="closed" value="true" />
-      <created>1720466751486</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720466751486</updated>
     </task>
     <task id="LOCAL-00027" summary="Rename file containing extension function example">
       <option name="closed" value="true" />
@@ -617,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722891143944</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Add examples for sealed, nested, and inner class usage">
+      <option name="closed" value="true" />
+      <created>1723055184188</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1723055184188</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
     <MESSAGE value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
     <MESSAGE value="Implemented Box and Container classes to demonstrate generics" />
     <MESSAGE value="Added examples of generic classes: Box, PairClass, and StackGeneric&#10;&#10;- Implemented Box and Container classes to demonstrate generics&#10;- Created PairClass to hold pairs of items with generic types&#10;- Developed StackGeneric class with push, pop, peek, and isEmpty methods&#10;- Provided usage examples in the main function" />
@@ -657,7 +654,8 @@
     <MESSAGE value="Refactor: Update file structure for OOP examples" />
     <MESSAGE value="Add example of polymorphism in OOP" />
     <MESSAGE value="Add Customer data class with basic properties and functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Customer data class with basic properties and functions" />
+    <MESSAGE value="Add examples for sealed, nested, and inner class usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add examples for sealed, nested, and inner class usage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
