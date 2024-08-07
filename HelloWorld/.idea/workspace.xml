@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add example of polymorphism in OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/dataclass/DataClassExample.kt" afterDir="false" />
+    <list default="true" id="a8a9215c-7244-4782-b031-1251af59ccba" name="Changes" comment="Add Customer data class with basic properties and functions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/nestedandınnerclass/InnerClassExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/sealedclasses/SealedClassExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +46,8 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="package-info" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -104,6 +105,7 @@
     "Kotlin.HigherOrderFunctionExampleKt.executor": "Debug",
     "Kotlin.HumanKt.executor": "Run",
     "Kotlin.InheritanceKt.executor": "Run",
+    "Kotlin.InnerClassExampleKt.executor": "Run",
     "Kotlin.InterfacesKt.executor": "Run",
     "Kotlin.LateinitKt.executor": "Run",
     "Kotlin.LogDelegationKt.executor": "Run",
@@ -127,6 +129,7 @@
     "Kotlin.ScoopeMainKt.executor": "Run",
     "Kotlin.ScoopeTestMain2Kt.executor": "Run",
     "Kotlin.ScoopeTestMainKt.executor": "Run",
+    "Kotlin.SealedClassExampleKt.executor": "Run",
     "Kotlin.SealedClassKt.executor": "Run",
     "Kotlin.StackGenericKt.executor": "Debug",
     "Kotlin.StudentKt.executor": "Run",
@@ -167,14 +170,7 @@
       <recent name="classes.oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DataClassExampleKt">
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ArraysKt" />
-      <module name="HelloWorld.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.InnerClassExampleKt">
     <configuration name="DataClassExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.classes.dataclass.DataClassExampleKt" />
       <module name="HelloWorld.main" />
@@ -182,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherOrderFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testquestion.function.HigherOrderFunctionExampleKt" />
+    <configuration name="InnerClassExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.nestedandınnerclass.InnerClassExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,6 +187,13 @@
     </configuration>
     <configuration name="PolymorphismKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.classes.oop.PolymorphismKt" />
+      <module name="HelloWorld.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SealedClassExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.sealedclasses.SealedClassExampleKt" />
       <module name="HelloWorld.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InnerClassExampleKt" />
+        <item itemvalue="Kotlin.SealedClassExampleKt" />
         <item itemvalue="Kotlin.DataClassExampleKt" />
         <item itemvalue="Kotlin.TurtleKt" />
         <item itemvalue="Kotlin.PolymorphismKt" />
-        <item itemvalue="Kotlin.HigherOrderFunctionExampleKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,14 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719594221816</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Add exercises demonstrating the use of higher-order functions in Kotlin">
-      <option name="closed" value="true" />
-      <created>1720462321897</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1720462321897</updated>
     </task>
     <task id="LOCAL-00026" summary="Rename file containing extension function example">
       <option name="closed" value="true" />
@@ -614,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722875829238</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Add Customer data class with basic properties and functions">
+      <option name="closed" value="true" />
+      <created>1722891143943</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1722891143944</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Explore differences between nested and inner classes in Kotlin" />
     <MESSAGE value="Learn about generics, invariants, co-variants, and contra-variants in Kotlin" />
     <MESSAGE value="Implement Singleton pattern examples in Java and utilize object declaration in Kotlin" />
     <MESSAGE value="Implemented Box and Container classes to demonstrate generics" />
@@ -654,7 +656,8 @@
     <MESSAGE value="Refactor: Update comments and clean up code in test functions" />
     <MESSAGE value="Refactor: Update file structure for OOP examples" />
     <MESSAGE value="Add example of polymorphism in OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add example of polymorphism in OOP" />
+    <MESSAGE value="Add Customer data class with basic properties and functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Customer data class with basic properties and functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$OperatorsKt.ic" NAME="OperatorsKt Coverage Results" MODIFIED="1720000491961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
