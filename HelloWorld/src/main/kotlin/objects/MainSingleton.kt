@@ -12,10 +12,8 @@ package org.example.objects
 // Objenin declaration kullanımı yada singleton kullanımıda denir.
 object Retrofit {
     var baseUrl = "https://api.github.com"
-
 }
 
 fun main() {
     Retrofit.baseUrl = "https://api.github.com"
-
 }
